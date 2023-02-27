@@ -26,11 +26,19 @@ nav {
 }
 
 nav a {
-    margin: 2px;
+    margin: 5px;
 }
 
-@media (max-width: 600px){
+@media (min-width: 600px){
     nav {
-
+        flex-direction: column;     
+    }
+    body {
+        display: flex;
+        gap: 15px;
+    }
+    nav a {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
