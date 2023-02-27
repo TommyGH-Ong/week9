@@ -41,7 +41,7 @@ nav a {
         gap: 15px;
     }
     nav a {
-        /* padding-left: 15px;
-        padding-right: 15px; */
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
