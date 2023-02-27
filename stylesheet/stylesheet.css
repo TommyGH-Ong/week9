@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: blue;
 }
 
@@ -13,6 +13,24 @@ body {
         background-color: green;
     }
 
+} */
+
+body {
+    background-color: beige;
 }
 
+nav {
+    display: flex;
+    justify-content: space-around; 
+    border: 2px solid chocolate;  
+}
 
+nav a {
+    margin: 2px;
+}
+
+@media (max-width: 600px){
+    nav {
+
+    }
+}
